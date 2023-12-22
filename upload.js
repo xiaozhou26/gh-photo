@@ -40,7 +40,6 @@ document.getElementById('upload-form').addEventListener('submit', function(event
         // The URL of the image
         let imageUrl = data.content.download_url;
 
-        // Change the URL from raw.githubusercontent.com to cdn.jsdelivr.net
         imageUrl = imageUrl.replace(/(?<=com\/.+?\/.+?)\/(.+?\/)/, '@$1').replace(/^(?:https?:\/\/)?raw\.(?:githubusercontent|github)\.com/, 'https://jsd.cdn.zzko.cn/gh');
 
         // Display the image URL
