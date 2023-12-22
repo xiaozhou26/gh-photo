@@ -45,7 +45,6 @@ document.getElementById('upload-form').addEventListener('submit', function(event
         // Display the image URL
         document.getElementById('image-url').textContent = imageUrl;
       }).catch(error => {
-        // Handle the error
         console.error(error);
       });
     };
