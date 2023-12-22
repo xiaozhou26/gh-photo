@@ -2,9 +2,10 @@
 ## 简介
 可以存一些图片到GitHub，并用开源Chinajsdelivr进行加速在全球快速访问
 ## 使用
-* 前往 [Glitch](https://glitch.com/) 注册账户，然后点击右边按钮 =====> [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/xiaozhou26/gh-photo* )
-依照upload.js中的注释填写
-![](https://jsd.cdn.zzko.cn/gh/xiaozhou26/tuph@main/20231222194210.png)
+### * 前往 [Glitch](https://glitch.com/) 注册账户，然后点击右边按钮 =====> [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/xiaozhou26/gh-photo* )
+### 依照upload.js中的注释填写
+### ![](https://jsd.cdn.zzko.cn/gh/xiaozhou26/tuph@main/20231222194210.png)
+
 | 变量名        | 是否必须 | 默认值 | 备注 |
 | ------------ | ------ | ------ | ------ |
 | token         | 是 |  | https://github.com/settings/tokens这里添加获得 |
