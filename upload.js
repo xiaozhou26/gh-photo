@@ -2,16 +2,16 @@ document.getElementById('upload-form').addEventListener('submit', function(event
   event.preventDefault();
 
   // Your GitHub token
-  const token = '';
+  const token = process.env.token;
 
   // The name of your repository
-  const repo = '';
+  const repo = process.env.repo;
 
   // The name of the branch
-  const branch = 'main';
+  const branch = process.env.branch || "main";
 
   // The path where the image will be stored
-  const path = 'images/';
+  const path = process.env.path || "/images";
 
     // The name of the image file
     const filename = document.getElementById('fileToUpload').files[0].name;
