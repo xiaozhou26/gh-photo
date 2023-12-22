@@ -14,5 +14,6 @@
 | path         | 否 | main | /images | 必须这个格式 /路径名
 ## 部署成功
 这样你旁边就可以看到链接了
+## 请大家积极pull和提issue
 ## 鸣谢https://github.com/54ayao/Chinajsdelivr
 为我们提供了国内加速服务，请大家合规使用，感谢。
