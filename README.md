@@ -8,7 +8,7 @@
 
 | 变量名        | 是否必须 | 默认值 | 备注 |
 | ------------ | ------ | ------ | ------ |
-| token         | 是 |  | https://github.com/settings/tokens这里添加获得 |
+| token         | 是 |  | https://github.com/settings/tokens 这里添加获得 |
 | repo         | 是 |  | 你自己创建的仓库名 |
 | branch         | 否 | main |  |
 | path         | 否 | main | /images | 必须这个格式 /路径名
