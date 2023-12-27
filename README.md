@@ -5,13 +5,7 @@
 ### 前往 [Glitch](https://glitch.com/) 注册账户，然后点击右边按钮 =====> [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/xiaozhou26/gh-photo* )
 ### 依照upload.js中的注释填写
 ### ![](https://jsd.cdn.zzko.cn/gh/xiaozhou26/tuph@main/20231222194210.png)
-
-| 变量名        | 是否必须 | 默认值 | 备注 |
-| ------------ | ------ | ------ | ------ |
-| token         | 是 |  | https://github.com/settings/tokens 这里添加获得 |
-| repo         | 是 |  | 你自己创建的仓库名 |
-| branch         | 否 | main |  |
-| path         | 否 | main | /images | 必须这个格式 /路径名
+目前纯静态只能明文保存，希望有大佬带带。
 ## 部署成功
 这样你旁边就可以看到链接了
 ## 请大家积极pull和提issue
