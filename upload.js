@@ -4,7 +4,7 @@ document
     event.preventDefault();
 
     // Your GitHub token
-    const token = "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";
+    const token = "";
 
     // The name of your repository
     const repo = "xiaozhou26/tuph";
