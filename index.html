@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://jsd.cdn.zzko.cn/gh/xiaozhou26/tuph@main/images/favicon.ico">
+</head>
+<body style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+    <!-- Logo -->
+    <img src="https://jsd.cdn.zzko.cn/gh/xiaozhou26/tuph@main/images/favicon.ico" alt="Logo" style="width: 150px; height: 150px;">
+    <!-- 文件上传表单 -->
+    <div id="title">GitHub 图床加速</div>
+    <form id="upload-form" enctype="multipart/form-data">
+        选择图片上传:
+        <input type="file" id="fileToUpload" name="fileToUpload">
+        <input type="submit" value="上传图片" name="submit">
+    </form>
+    <!-- 显示图片URL -->
+    <div id="image-url"></div>
+    <script src="upload.js"></script>
+</body>
+</html>
