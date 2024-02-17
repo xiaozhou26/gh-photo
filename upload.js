@@ -3,11 +3,11 @@ document
   .addEventListener("submit", function (event) {
     event.preventDefault();
 
-    // Your GitHub token
+    // 定义 GitHub 的访问令牌，用于验证和授权
     const token = "";
 
-    // The name of your repository
-    const repo = "xiaozhou26/tuph";
+    // 定义你的 GitHub 仓库的名称
+    const repo = "";
 
     // The name of the branch
     const branch = "main";
